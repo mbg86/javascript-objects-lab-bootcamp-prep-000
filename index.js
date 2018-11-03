@@ -1,5 +1,5 @@
 var recipes = new Object()
 
 function updateObjectWithKeyAndValue(object, key, value) {
-var recipes = Object({'1': 2})
+  return Object.assign({}, obj, { [key]: value })
 }
